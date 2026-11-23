@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ozark Small Engine &amp; E-Bike Repair | Nixa, MO</title>
+  <meta name="description" content="Dependable lawn mower, weed eater, small-engine and e-bike repair in Nixa, Missouri. (Demonstration website for a fictional business.)">
+  <meta name="theme-color" content="#16301f">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <!-- Demo notice: remove this block when the site goes live for a real business -->
+  <div class="demo-bar" id="demo-bar" role="note">
+    <p><strong>Demo website.</strong> Ozark Small Engine &amp; E-Bike Repair is a fictional business. Contact details and reviews are placeholders.</p>
+    <button class="demo-bar__close" type="button" aria-label="Dismiss demo notice">&times;</button>
+  </div>
+
+  <header class="site-header" id="top">
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="Ozark Small Engine &amp; E-Bike Repair, back to top">
+        <img src="images/logo-mark.svg" alt="" width="44" height="44">
+        <span class="brand__text">
+          <span class="brand__name">Ozark Small Engine</span>
+          <span class="brand__sub">&amp; E-Bike Repair</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="visually-hidden">Menu</span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a class="btn btn--accent btn--sm" href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow eyebrow--light"><span class="dot"></span> Locally owned in Nixa, Missouri</p>
+          <h1 id="hero-title">Reliable Repairs.<br><span class="accent-text">Right Here in Nixa.</span></h1>
+          <p class="hero__lead">
+            Ozark Small Engine &amp; E-Bike Repair keeps your mowers, trimmers, small engines and electric bikes
+            running the way they should. We do honest diagnostics, give you clear estimates, and do work that lasts.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--accent btn--lg" href="#contact">Contact Us
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#services">Our Services</a>
+          </div>
+          <ul class="hero__points">
+            <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Gas &amp; electric equipment</li>
+            <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>Estimates before any work</li>
+            <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>E-bikes welcome</li>
+          </ul>
+        </div>
+
+        <div class="hero__art">
+          <img src="images/hero-mower.svg" alt="Illustration of a push lawn mower on fresh-cut grass, with repair tools nearby" width="600" height="480" fetchpriority="high">
+          <div class="hero__badge" aria-hidden="true">
+            <img src="images/icon-wrench.svg" alt="" width="28" height="28">
+            <span><strong>Tune-up season</strong>Get ready before the grass does</span>
+          </div>
+        </div>
+      </div>
+
+      <svg class="hero__hills" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 96 C 180 40, 360 40, 540 84 S 900 140, 1080 90 S 1320 40, 1440 70 V160 H0 Z" fill="#1f4a30" opacity=".55"/>
+        <path d="M0 120 C 220 80, 420 92, 640 118 S 1040 150, 1240 116 S 1400 100, 1440 108 V160 H0 Z" fill="#f6f5f1"/>
+      </svg>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust" aria-label="Why customers choose us">
+      <div class="container trust__grid">
+        <div class="trust__item reveal">
+          <img src="images/icon-shield.svg" alt="" width="36" height="36">
+          <div><strong>Honest Estimates</strong><span>You approve the price before we start</span></div>
+        </div>
+        <div class="trust__item reveal">
+          <img src="images/icon-pin.svg" alt="" width="36" height="36">
+          <div><strong>Local &amp; Independent</strong><span>Serving Nixa and the surrounding area</span></div>
+        </div>
+        <div class="trust__item reveal">
+          <img src="images/icon-gear.svg" alt="" width="36" height="36">
+          <div><strong>Quality Parts</strong><span>The right part for the job, every time</span></div>
+        </div>
+        <div class="trust__item reveal">
+          <img src="images/icon-chat.svg" alt="" width="36" height="36">
+          <div><strong>Plain-English Answers</strong><span>We explain what's wrong and why</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__copy reveal">
+          <p class="eyebrow">About Us</p>
+          <h2 id="about-title">Locally Owned. Built on Honest Work.</h2>
+          <p>
+            Ozark Small Engine &amp; E-Bike Repair is a small, locally run shop right here in Nixa, Missouri.
+            We started it for a simple reason: folks around here deserve a repair shop that picks up the phone,
+            tells them the truth, and fixes things right the first time.
+          </p>
+          <p>
+            Your mower is how you take care of your yard. Your trimmer keeps the fence line clean, and your e-bike
+            might be how you get around town. When one of them breaks, you don't need a runaround. You need someone who
+            will take a careful look, explain what's going on, and give you a fair price.
+          </p>
+          <p>
+            We take pride in every repair that leaves our bench, big or small. If something isn't worth fixing,
+            we'll tell you that too. Our goal is to keep our neighbors' equipment running season after season.
+          </p>
+          <a class="text-link" href="#contact">Have a question? Get in touch
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+
+        <aside class="promise reveal" aria-labelledby="promise-title">
+          <div class="promise__head">
+            <img src="images/logo-mark.svg" alt="" width="52" height="52">
+            <h3 id="promise-title">Our Shop Promise</h3>
+          </div>
+          <ul class="promise__list">
+            <li>
+              <span class="promise__num">01</span>
+              <div><strong>No surprise bills</strong><p>We call with a clear estimate before any work begins.</p></div>
+            </li>
+            <li>
+              <span class="promise__num">02</span>
+              <div><strong>Straight talk</strong><p>We explain the problem in plain English and give you your options.</p></div>
+            </li>
+            <li>
+              <span class="promise__num">03</span>
+              <div><strong>Work done right</strong><p>Careful repairs, quality parts, and a test run before pickup.</p></div>
+            </li>
+            <li>
+              <span class="promise__num">04</span>
+              <div><strong>Neighbors first</strong><p>We live here too, and our reputation is built one customer at a time.</p></div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">What We Fix</p>
+          <h2 id="services-title">Our Services</h2>
+          <p>From a mower that won't start to an e-bike that won't charge, bring it in and we'll get it sorted.</p>
+        </header>
+
+        <div class="services__grid">
+          <article class="service-card reveal">
+            <div class="service-card__icon"><img src="images/svc-mower.svg" alt="" width="64" height="64"></div>
+            <h3>Lawn Mower Repair</h3>
+            <p>Maintenance, troubleshooting, and general repairs for push mowers and riding mowers. We also fix hard starts, rough running, and blade problems.</p>
+            <ul class="service-card__tags"><li>Push</li><li>Riding</li><li>Self-propelled</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><img src="images/svc-trimmer.svg" alt="" width="64" height="64"></div>
+            <h3>Weed Eater Repair</h3>
+            <p>Servicing for gas and electric string trimmers, including carburetor cleaning, fuel lines, trimmer heads, and starting issues.</p>
+            <ul class="service-card__tags"><li>Gas</li><li>Electric</li><li>Battery</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><img src="images/svc-ebike.svg" alt="" width="64" height="64"></div>
+            <h3>E-Bike Repair</h3>
+            <p>General maintenance, troubleshooting, and repairs to keep your electric bike safe, smooth, and ready to ride.</p>
+            <ul class="service-card__tags"><li>Tune-ups</li><li>Brakes</li><li>Diagnostics</li></ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-card__icon"><img src="images/svc-engine.svg" alt="" width="64" height="64"></div>
+            <h3>Small Engine Maintenance</h3>
+            <p>Routine servicing and preventive maintenance, including oil, filters, plugs, and seasonal tune-ups that help prevent breakdowns.</p>
+            <ul class="service-card__tags"><li>Tune-ups</li><li>Oil &amp; filters</li><li>Seasonal</li></ul>
+          </article>
+        </div>
+
+        <div class="services__cta reveal">
+          <p>Don't see your equipment listed? <strong>Just ask.</strong> We work on lots of small engines.</p>
+          <a class="btn btn--primary" href="#contact">Ask About a Repair</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section-head section-head--light reveal">
+          <p class="eyebrow eyebrow--light">Simple &amp; Straightforward</p>
+          <h2 id="process-title">How It Works</h2>
+          <p>Getting your equipment fixed shouldn't be complicated. Here's what to expect.</p>
+        </header>
+
+        <ol class="process__steps">
+          <li class="step reveal">
+            <span class="step__num">1</span>
+            <h3>Reach Out</h3>
+            <p>Call or send us a message about what's going on with your equipment.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">2</span>
+            <h3>Drop It Off</h3>
+            <p>Bring it by and we'll write down the symptoms and anything else you've noticed.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">3</span>
+            <h3>Diagnose &amp; Quote</h3>
+            <p>We find the problem and call you with a clear estimate before any work starts.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">4</span>
+            <h3>Back to Work</h3>
+            <p>We repair it, test it, and let you know it's ready to pick up.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="section reviews" id="reviews" aria-labelledby="reviews-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Customer Reviews</p>
+          <h2 id="reviews-title">What Folks Are Saying</h2>
+        </header>
+
+        <figure class="testimonial reveal">
+          <span class="testimonial__flag">Sample review: placeholder content</span>
+          <div class="testimonial__stars" aria-label="Five out of five stars">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.8l2.8 5.9 6.4.8-4.7 4.4 1.2 6.4L12 17.2l-5.7 3.1 1.2-6.4-4.7-4.4 6.4-.8z"/></svg>
+          </div>
+          <blockquote>
+            <p>&ldquo;Great experience from start to finish. My lawn mower was giving me problems, and they got it running again without any hassle. Friendly service and fair prices!&rdquo;</p>
+          </blockquote>
+          <figcaption>
+            <span class="testimonial__avatar" aria-hidden="true">LC</span>
+            <span><strong>Local Customer</strong>Nixa, MO</span>
+          </figcaption>
+          <p class="testimonial__note">This is a fictional review written for a demonstration website. It is not a real customer endorsement.</p>
+        </figure>
+      </div>
+    </section>
+
+    <!-- CTA BAND -->
+    <section class="cta-band" aria-label="Contact call to action">
+      <div class="container cta-band__inner reveal">
+        <div>
+          <h2>Equipment acting up?</h2>
+          <p>Tell us what's going on. We're happy to answer questions before you bring it in.</p>
+        </div>
+        <a class="btn btn--light btn--lg" href="#contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact__grid">
+        <div class="contact__info reveal">
+          <p class="eyebrow">Contact Us</p>
+          <h2 id="contact-title">Let's Get It Running Again</h2>
+          <p>
+            Questions about a repair? Not sure it's worth fixing? Reach out. There's no such thing as a silly
+            question, and we'll give you a straight answer.
+          </p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon"><img src="images/icon-phone.svg" alt="" width="22" height="22"></span>
+              <div>
+                <strong>Phone</strong>
+                <a href="tel:+14175550123">(417) 555-0123</a>
+                <span class="placeholder-tag">Fictional placeholder number</span>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon"><img src="images/icon-pin-dark.svg" alt="" width="22" height="22"></span>
+              <div>
+                <strong>Location</strong>
+                <span>Nixa, Missouri</span>
+                <span class="contact__muted">Serving Nixa and nearby communities</span>
+              </div>
+            </li>
+            <li>
+              <span class="contact__icon"><img src="images/icon-clock.svg" alt="" width="22" height="22"></span>
+              <div>
+                <strong>Response</strong>
+                <span>We reply to messages as quickly as we can.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="form-card reveal">
+          <div class="form-card__notice" role="note">
+            <strong>Demonstration form.</strong> This form checks your entries but does not send messages yet.
+          </div>
+
+          <form id="contact-form" novalidate>
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Name <span class="req" aria-hidden="true">*</span></label>
+                <input id="name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="name-error">
+                <p class="field__error" id="name-error" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="phone">Phone <span class="optional">(optional)</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="(417) 555-0000" aria-describedby="phone-error">
+                <p class="field__error" id="phone-error" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+              <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+              <p class="field__error" id="email-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" rows="5" required minlength="10" placeholder="Tell us about your equipment and what's going on with it." aria-describedby="message-error"></textarea>
+              <p class="field__error" id="message-error" aria-live="polite"></p>
+            </div>
+
+            <button class="btn btn--accent btn--lg btn--block" type="submit">
+              Send Message
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 12l16-8-6 16-2.5-6.5z"/></svg>
+            </button>
+            <p class="form__fine"><span class="req">*</span> Required fields</p>
+          </form>
+
+          <div class="form-success" id="form-success" hidden tabindex="-1">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg>
+            <h3>Thanks! Your message looks good.</h3>
+            <p>This is a demo, so <strong>nothing was sent</strong>. On a live site, this message would go straight to the shop's inbox.</p>
+            <button class="btn btn--primary" type="button" id="form-reset">Send another message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand brand--light" href="#top">
+          <img src="images/logo-mark.svg" alt="" width="44" height="44">
+          <span class="brand__text">
+            <span class="brand__name">Ozark Small Engine</span>
+            <span class="brand__sub">&amp; E-Bike Repair</span>
+          </span>
+        </a>
+        <p>Dependable small-engine and electric bike repair for Nixa, Missouri. We offer honest service, fair prices, and repairs done right.</p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#process">How It Works</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__nav">
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Lawn Mower Repair</a></li>
+          <li><a href="#services">Weed Eater Repair</a></li>
+          <li><a href="#services">E-Bike Repair</a></li>
+          <li><a href="#services">Small Engine Maintenance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__contact">
+        <h3>Visit</h3>
+        <p>Nixa, Missouri</p>
+        <p><a href="tel:+14175550123">(417) 555-0123</a><br><span class="footer__muted">Placeholder number</span></p>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year">2026</span> Ozark Small Engine &amp; E-Bike Repair. All rights reserved.</p>
+      <p class="footer__muted">Demonstration website for a fictional business. <a href="#top">Back to top &uarr;</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
