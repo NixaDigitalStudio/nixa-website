@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menu | Olive &amp; Hearth, Nixa MO</title>
+  <meta name="description" content="Antipasti, handmade pasta, wood-fired pizza, secondi, Italian desserts and drinks. (Demonstration website.)">
+  <meta name="theme-color" content="#1f2819">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="has-hero page-fade" data-page="menu">
+
+  <div class="demo-strip" role="note">
+    <p><strong>Demo website.</strong> Olive &amp; Hearth is a fictional restaurant. Address, phone, reviews and bookings are placeholders.</p>
+    <button type="button" aria-label="Dismiss demo notice">&times;</button>
+  </div>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Olive &amp; Hearth, home">
+        <svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="22.5"/><path d="M13 36V25.5a11 11 0 0 1 22 0V36"/><path d="M9.5 36h29"/><path d="M24 33.5c-3.2-1.4-3.6-4.6-.6-8.6.4 2.2 1.8 2.8 2.8 4.2 1 1.6.4 3.6-2.2 4.4z" fill="#b38f58" stroke="none"/><path d="M24 11c-2.5-2.2-5.5-2.6-8-1.2 2.2 2 5.2 2.4 8 1.2zm0 0c2.5-2.2 5.5-2.6 8-1.2-2.2 2-5.2 2.4-8 1.2z" fill="currentColor" stroke="none"/></svg>
+        <span class="brand__text"><span class="brand__name">Olive &amp; Hearth</span><span class="brand__sub">Nixa &middot; Missouri</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a class="nav-link" data-nav="home" href="index.html">Home</a></li>
+          <li><a class="nav-link" data-nav="about" href="about.html">About</a></li>
+          <li><a class="nav-link" data-nav="menu" href="menu.html">Menu</a></li>
+          <li><a class="nav-link" data-nav="gallery" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link" data-nav="contact" href="contact.html">Contact</a></li>
+          <li><a class="btn" href="reservations.html">Reserve a Table</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="page-hero__media"><img src="images/wood-fired-oven.jpg" alt="Margherita pizza leaving the wood-fired oven" width="1400" height="1055" fetchpriority="high"></div>
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Menu</p>
+        <h1 id="page-title">The Menu</h1>
+        <p>Handmade, wood-fired and served family style if you like. Our menu follows the seasons, so a few dishes may change.</p>
+      </div>
+    </section>
+
+    <nav class="menu-nav" aria-label="Menu sections">
+      <div class="container">
+        <ul>
+          <li><a href="#antipasti">Antipasti</a></li>
+          <li><a href="#insalate">Insalate</a></li>
+          <li><a href="#pasta">Pasta</a></li>
+          <li><a href="#pizza">Pizza</a></li>
+          <li><a href="#secondi">Secondi</a></li>
+          <li><a href="#dolci">Dolci</a></li>
+          <li><a href="#bevande">Bevande</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="menu-legend reveal" style="padding-top:48px">
+        <span><span class="tag">V</span> Vegetarian</span>
+        <span><span class="tag">GF</span> Gluten-free</span>
+        <span><span class="tag tag--chef">&#9733;</span> Chef's favorite</span>
+        <span>Gluten-free pizza crust available, add $3</span>
+      </div>
+
+      <section class="menu-section" id="antipasti" aria-labelledby="antipasti-h">
+        <header class="menu-section__head reveal"><span class="menu-section__num" aria-hidden="true">01</span><h2 id="antipasti-h">Antipasti</h2><p>To start, or to share</p></header>
+        <ul class="menu-list" data-stagger>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Bruschetta Trio <span class="tag">V</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$11</span></div><p>Grilled sourdough three ways: vine tomato and basil, whipped ricotta with hot honey, and roasted mushrooms with thyme.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Burrata e Prosciutto</span><span class="menu-item__dots"></span><span class="menu-item__price">$16</span></div><p>Creamy burrata, prosciutto di Parma, grilled seasonal fruit, aged balsamic and toasted focaccia.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Calamari Fritti</span><span class="menu-item__dots"></span><span class="menu-item__price">$14</span></div><p>Lightly floured and flash-fried, with charred lemon and Calabrian chili aioli.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Arancini <span class="tag">V</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$12</span></div><p>Golden saffron risotto balls with a molten mozzarella center, over San Marzano tomato sauce.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Polpette al Forno</span><span class="menu-item__dots"></span><span class="menu-item__price">$13</span></div><p>Beef and pork meatballs baked in Sunday gravy, finished with fresh ricotta and grilled bread.</p></li>
+        </ul>
+        <div class="menu-photo reveal"><img src="images/bruschetta.jpg" alt="Bruschetta on a slate board" width="1000" height="750" loading="lazy"><img src="images/hero.jpg" alt="Italian dinner spread on a candlelit table" width="1920" height="1084" loading="lazy"></div>
+      </section>
+
+      <section class="menu-section" id="insalate" aria-labelledby="insalate-h">
+        <header class="menu-section__head reveal"><span class="menu-section__num" aria-hidden="true">02</span><h2 id="insalate-h">Insalate</h2><p>Crisp, bright and seasonal</p></header>
+        <ul class="menu-list" data-stagger>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Caesar del Forno</span><span class="menu-item__dots"></span><span class="menu-item__price">$11</span></div><p>Romaine hearts, wood-fired croutons, shaved parmigiano and our anchovy-garlic dressing.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Insalata Caprese <span class="tag">V</span><span class="tag">GF</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$13</span></div><p>Heirloom tomatoes, fresh mozzarella, basil, flaky salt and peppery olive oil.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Arugula &amp; Pear <span class="tag">V</span><span class="tag">GF</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$12</span></div><p>Baby arugula, shaved pear, gorgonzola, candied walnuts and lemon vinaigrette.</p></li>
+        </ul>
+      </section>
+
+      <section class="menu-section" id="pasta" aria-labelledby="pasta-h">
+        <header class="menu-section__head reveal"><span class="menu-section__num" aria-hidden="true">03</span><h2 id="pasta-h">Pasta</h2><p>Rolled and cut by hand every morning</p></header>
+        <ul class="menu-list" data-stagger>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Tagliatelle Bolognese</span><span class="menu-item__dots"></span><span class="menu-item__price">$22</span></div><p>Six-hour beef and pork ragù, a splash of cream, and aged parmigiano.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Spaghetti Carbonara</span><span class="menu-item__dots"></span><span class="menu-item__price">$20</span></div><p>Crispy guanciale, egg yolk, pecorino romano and plenty of black pepper. No cream, the Roman way.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Fettuccine al Burro <span class="tag">V</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$19</span></div><p>Hand-cut ribbons, cultured butter, parmigiano and basil. Add grilled chicken for $6.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Lasagna della Nonna <span class="tag tag--chef">&#9733;</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$23</span></div><p>Rosa's recipe: eight thin layers of pasta, beef ragù, béchamel, ricotta and mozzarella.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Lobster Ravioli</span><span class="menu-item__dots"></span><span class="menu-item__price">$29</span></div><p>Handmade ravioli filled with Maine lobster and mascarpone, in a sherry tomato cream.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Gnocchi al Pesto <span class="tag">V</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$19</span></div><p>Pillowy potato gnocchi, basil and pistachio pesto, topped with creamy stracciatella.</p></li>
+        </ul>
+        <div class="menu-photo reveal"><img src="images/fettuccine.jpg" alt="Fresh fettuccine with parmigiano and basil" width="900" height="900" loading="lazy"><img src="images/interior.jpg" alt="Dining room at Olive &amp; Hearth" width="1600" height="904" loading="lazy"></div>
+      </section>
+
+      <section class="menu-section" id="pizza" aria-labelledby="pizza-h">
+        <header class="menu-section__head reveal"><span class="menu-section__num" aria-hidden="true">04</span><h2 id="pizza-h">Pizza</h2><p>12-inch, 48-hour dough, baked at 850&deg; in about 90 seconds</p></header>
+        <ul class="menu-list" data-stagger>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Margherita <span class="tag">V</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$15</span></div><p>San Marzano tomato, fior di latte mozzarella, fresh basil and extra-virgin olive oil.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Diavola <span class="tag tag--chef">&#9733;</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$17</span></div><p>Spicy soppressata, mozzarella, Calabrian chili and a drizzle of hot honey.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Quattro Formaggi <span class="tag">V</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$17</span></div><p>Mozzarella, gorgonzola, fontina and parmigiano on a garlic-oil base.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Prosciutto e Rucola</span><span class="menu-item__dots"></span><span class="menu-item__price">$19</span></div><p>Topped after baking with prosciutto di Parma, baby arugula, shaved parmigiano and lemon.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Salsiccia e Funghi</span><span class="menu-item__dots"></span><span class="menu-item__price">$18</span></div><p>House fennel sausage, roasted mushrooms, caramelized onion and mozzarella.</p></li>
+        </ul>
+        <div class="menu-photo reveal"><img src="images/margherita.jpg" alt="Margherita pizza with fresh basil" width="900" height="900" loading="lazy"><img src="images/hearth.jpg" alt="The brick wood-fired oven" width="1000" height="750" loading="lazy"></div>
+      </section>
+
+      <section class="menu-section" id="secondi" aria-labelledby="secondi-h">
+        <header class="menu-section__head reveal"><span class="menu-section__num" aria-hidden="true">05</span><h2 id="secondi-h">Secondi</h2><p>Hearty plates from the kitchen</p></header>
+        <ul class="menu-list" data-stagger>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Chicken Parmigiana</span><span class="menu-item__dots"></span><span class="menu-item__price">$24</span></div><p>Crisp breaded chicken, marinara and melted mozzarella, with spaghetti pomodoro.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Chicken Marsala</span><span class="menu-item__dots"></span><span class="menu-item__price">$25</span></div><p>Pan-seared chicken in a mushroom and Marsala wine sauce, with garlic mashed potatoes.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Salmone al Limone <span class="tag">GF</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$29</span></div><p>Roasted salmon with lemon-caper butter and charred broccolini.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Bistecca alla Griglia <span class="tag">GF</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$38</span></div><p>14 oz wood-grilled ribeye, rosemary potatoes and bright salsa verde.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Eggplant Parmigiana <span class="tag">V</span></span><span class="menu-item__dots"></span><span class="menu-item__price">$21</span></div><p>Layers of fried eggplant, marinara, mozzarella and basil, baked until bubbling.</p></li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="section dolci menu-section" id="dolci" aria-labelledby="dolci-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow eyebrow--light eyebrow--center">06 &middot; Dolci</p>
+          <h2 id="dolci-title">Desserts from the family recipe box</h2>
+          <p>Made in-house every afternoon. Pair any dessert with an espresso for $2.</p>
+        </header>
+        <div class="dolci__layout">
+          <figure class="dolci__feature reveal">
+            <img src="images/tiramisu.jpg" alt="Slice of tiramisu dusted with cocoa beside an espresso" width="1000" height="1246" loading="lazy">
+            <figcaption>Tiramis&ugrave; della Casa <strong>$10</strong></figcaption>
+          </figure>
+          <div class="dolci__list" data-stagger>
+            <article class="dolci-card reveal">
+              <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="20" width="40" height="13" rx="6.5" transform="rotate(-22 27 26.5)"/><path d="M14.5 33.5l-2 4M21 31l-1.5 4M27.5 28.5l-1 4M34 26l-.5 4"/><circle cx="9.5" cy="34" r="3.5"/><circle cx="44.5" cy="19.5" r="3.5"/></svg>
+              <div class="dolci-card__top"><h3>Cannoli Siciliani</h3><span class="price">$9</span></div>
+              <p>Crisp shells filled to order with sweet sheep's-milk ricotta, pistachio and dark chocolate.</p>
+            </article>
+            <article class="dolci-card reveal">
+              <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="27" cy="40" rx="20" ry="4.5"/><path d="M15 39c0-12 5-19 12-19s12 7 12 19"/><path d="M17 31c3 2 7 2.5 10 2.5s7-.5 10-2.5"/><circle cx="23" cy="18" r="2.6"/><circle cx="29" cy="17" r="2.6"/><circle cx="26" cy="13" r="2.4"/><path d="M31 12c2-2 4-2.5 6-2"/></svg>
+              <div class="dolci-card__top"><h3>Panna Cotta <span class="tag" style="border-color:#e9cf9f;color:#e9cf9f">GF</span></h3><span class="price">$9</span></div>
+              <p>Silky vanilla bean cream, set overnight and finished with a glossy mixed-berry compote.</p>
+            </article>
+            <article class="dolci-card reveal">
+              <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 33l38-12v10L7 43z"/><path d="M7 33l9-14 29 2"/><path d="M7 43v-4M45 31v-3"/><path d="M18 21c1 3 0 5-1 7M27 21.5c1 2.5.5 4.5-.5 6.5M36 21.5c.8 2 .4 3.5-.4 5"/><circle cx="22" cy="17.5" r="2.4"/><circle cx="33" cy="18" r="2.4"/></svg>
+              <div class="dolci-card__top"><h3>Ricotta Cheesecake</h3><span class="price">$10</span></div>
+              <p>Light, citrusy Italian cheesecake on a buttery crust with warm amarena cherries.</p>
+            </article>
+            <article class="dolci-card reveal">
+              <svg viewBox="0 0 54 54" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 24h26l-3 18a4 4 0 0 1-4 3H21a4 4 0 0 1-4-3z"/><path d="M18 24a9 9 0 0 1 18 0"/><path d="M34 8c-3 4-2 8 0 11"/><path d="M40 30c4 0 5 4 1 6"/><path d="M18 31c3 1.5 6 1.5 9 0s6-1.5 9 0"/></svg>
+              <div class="dolci-card__top"><h3>Affogato</h3><span class="price">$7</span></div>
+              <p>A scoop of vanilla gelato drowned in a hot shot of espresso, poured at the table.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="menu-section" id="bevande" aria-labelledby="bevande-h">
+        <header class="menu-section__head reveal"><span class="menu-section__num" aria-hidden="true">07</span><h2 id="bevande-h">Bevande</h2><p>Cocktails, wine, beer and more</p></header>
+        <ul class="menu-list" data-stagger>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Aperol Spritz</span><span class="menu-item__dots"></span><span class="menu-item__price">$11</span></div><p>Aperol, prosecco, a splash of soda and an orange wheel.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">House Negroni</span><span class="menu-item__dots"></span><span class="menu-item__price">$12</span></div><p>Gin, Campari and sweet vermouth, stirred and served over a large cube.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Vino della Casa</span><span class="menu-item__dots"></span><span class="menu-item__price">$9 / $34</span></div><p>Our house red (Montepulciano) or white (Pinot Grigio), by the glass or bottle.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Peroni on Draft</span><span class="menu-item__dots"></span><span class="menu-item__price">$6</span></div><p>Crisp Italian lager. Ask about our rotating local craft tap.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Italian Soda</span><span class="menu-item__dots"></span><span class="menu-item__price">$4</span></div><p>Blood orange, lemon or raspberry, with a splash of cream if you like.</p></li>
+          <li class="menu-item reveal"><div class="menu-item__top"><span class="menu-item__name">Espresso &middot; Cappuccino</span><span class="menu-item__dots"></span><span class="menu-item__price">$3 / $5</span></div><p>Pulled from Italian roast beans. Decaf available.</p></li>
+        </ul>
+      </section>
+      <p class="menu-note reveal">Please tell your server about any allergies. Consuming raw or undercooked eggs or meats may increase your risk of foodborne illness. Prices and dishes are fictional placeholders for this demonstration website.</p>
+      <p style="text-align:center;margin:36px 0 96px" class="reveal"><a class="btn" href="reservations.html">Reserve a Table</a></p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" aria-label="Olive &amp; Hearth, home">
+          <svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="22.5"/><path d="M13 36V25.5a11 11 0 0 1 22 0V36"/><path d="M9.5 36h29"/><path d="M24 33.5c-3.2-1.4-3.6-4.6-.6-8.6.4 2.2 1.8 2.8 2.8 4.2 1 1.6.4 3.6-2.2 4.4z" fill="#b38f58" stroke="none"/><path d="M24 11c-2.5-2.2-5.5-2.6-8-1.2 2.2 2 5.2 2.4 8 1.2zm0 0c2.5-2.2 5.5-2.6 8-1.2-2.2 2-5.2 2.4-8 1.2z" fill="currentColor" stroke="none"/></svg>
+          <span class="brand__text"><span class="brand__name">Olive &amp; Hearth</span><span class="brand__sub">Nixa &middot; Missouri</span></span>
+        </a>
+        <p>A wood-fired Italian kitchen serving handmade pasta, Neapolitan-style pizza and family-recipe desserts in Nixa, Missouri.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="menu.html#dolci">Desserts</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>1418 Hearthstone Way<br>Nixa, MO 65714</li>
+          <li><a href="tel:+14175550148">(417) 555-0148</a></li>
+          <li class="footer__muted">Fictional address &amp; phone number</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul class="footer__hours">
+          <li><span>Monday</span><span>Closed</span></li>
+          <li><span>Tue &ndash; Thu</span><span>4 &ndash; 9 PM</span></li>
+          <li><span>Fri &ndash; Sat</span><span>4 &ndash; 10 PM</span></li>
+          <li><span>Sunday</span><span>11 AM &ndash; 8 PM</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span data-year>2026</span> Olive &amp; Hearth. All rights reserved.</p>
+      <p class="footer__muted">A demonstration website for a fictional restaurant.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gallery | Olive &amp; Hearth, Nixa MO</title>
+  <meta name="description" content="Photos of the food, the wood-fired oven and the dining room at Olive &amp; Hearth. (Demonstration website.)">
+  <meta name="theme-color" content="#1f2819">
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Mulish:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>document.documentElement.classList.add("js");</script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="has-hero page-fade" data-page="gallery">
+
+  <div class="demo-strip" role="note">
+    <p><strong>Demo website.</strong> Olive &amp; Hearth is a fictional restaurant. Address, phone, reviews and bookings are placeholders.</p>
+    <button type="button" aria-label="Dismiss demo notice">&times;</button>
+  </div>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a class="brand" href="index.html" aria-label="Olive &amp; Hearth, home">
+        <svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="22.5"/><path d="M13 36V25.5a11 11 0 0 1 22 0V36"/><path d="M9.5 36h29"/><path d="M24 33.5c-3.2-1.4-3.6-4.6-.6-8.6.4 2.2 1.8 2.8 2.8 4.2 1 1.6.4 3.6-2.2 4.4z" fill="#b38f58" stroke="none"/><path d="M24 11c-2.5-2.2-5.5-2.6-8-1.2 2.2 2 5.2 2.4 8 1.2zm0 0c2.5-2.2 5.5-2.6 8-1.2-2.2 2-5.2 2.4-8 1.2z" fill="currentColor" stroke="none"/></svg>
+        <span class="brand__text"><span class="brand__name">Olive &amp; Hearth</span><span class="brand__sub">Nixa &middot; Missouri</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a class="nav-link" data-nav="home" href="index.html">Home</a></li>
+          <li><a class="nav-link" data-nav="about" href="about.html">About</a></li>
+          <li><a class="nav-link" data-nav="menu" href="menu.html">Menu</a></li>
+          <li><a class="nav-link" data-nav="gallery" href="gallery.html">Gallery</a></li>
+          <li><a class="nav-link" data-nav="contact" href="contact.html">Contact</a></li>
+          <li><a class="btn" href="reservations.html">Reserve a Table</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero" aria-labelledby="page-title">
+      <div class="page-hero__media"><img src="images/hearth.jpg" alt="The brick wood-fired oven glowing in the dining room" width="1000" height="750" fetchpriority="high"></div>
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Gallery</p>
+        <h1 id="page-title">Gallery</h1>
+        <p>A look at the food, the fire and the room. Select any photo to view it larger.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Photo gallery">
+      <div class="container">
+        <div class="gallery-filters reveal" role="group" aria-label="Filter photos">
+          <button type="button" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" data-filter="food" aria-pressed="false">Food</button>
+          <button type="button" data-filter="dolci" aria-pressed="false">Desserts</button>
+          <button type="button" data-filter="room" aria-pressed="false">The Room</button>
+        </div>
+
+        <div class="gallery">
+          <button type="button" class="gallery__item gallery__item--big reveal" data-cat="food" data-full="images/hero.jpg"><img src="images/hero.jpg" alt="A candlelit table with pizza, fettuccine, bruschetta and red wine" width="1920" height="1084" loading="lazy"><span>Dinner for the table</span></button>
+          <button type="button" class="gallery__item gallery__item--tall reveal" data-cat="dolci"><img src="images/tiramisu.jpg" alt="Tiramisu dusted with cocoa beside an espresso" width="1000" height="1246" loading="lazy"><span>Tiramisù della Casa</span></button>
+          <button type="button" class="gallery__item reveal" data-cat="food"><img src="images/margherita.jpg" alt="Margherita pizza with a blistered crust" width="900" height="900" loading="lazy"><span>Margherita</span></button>
+          <button type="button" class="gallery__item reveal" data-cat="food"><img src="images/fettuccine.jpg" alt="Fettuccine with parmigiano and basil" width="900" height="900" loading="lazy"><span>Fettuccine al Burro</span></button>
+          <button type="button" class="gallery__item gallery__item--wide reveal" data-cat="room"><img src="images/interior.jpg" alt="Dining room with brick walls, green banquettes and the oven" width="1600" height="904" loading="lazy"><span>The dining room</span></button>
+          <button type="button" class="gallery__item reveal" data-cat="room"><img src="images/hearth.jpg" alt="The brick oven with stacked oak firewood" width="1000" height="750" loading="lazy"><span>The hearth</span></button>
+          <button type="button" class="gallery__item gallery__item--wide reveal" data-cat="food"><img src="images/wood-fired-oven.jpg" alt="Pizza on a wooden peel in front of the fire" width="1400" height="1055" loading="lazy"><span>Ninety seconds at 850&deg;</span></button>
+          <button type="button" class="gallery__item reveal" data-cat="food"><img src="images/bruschetta.jpg" alt="Tomato and basil bruschetta on slate" width="1000" height="750" loading="lazy"><span>Bruschetta Trio</span></button>
+        </div>
+
+        <p class="reviews-note reveal">Photography created with Canva AI for this demonstration website.</p>
+      </div>
+    </section>
+
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="cta-band__media"><img src="images/interior.jpg" alt="" width="1600" height="904" loading="lazy"></div>
+      <div class="container reveal">
+        <p class="eyebrow eyebrow--light eyebrow--center">See It in Person</p>
+        <h2 id="cta-title">It tastes even better than it looks</h2>
+        <div class="hero__actions">
+          <a class="btn" href="reservations.html">Reserve a Table</a>
+          <a class="btn btn--light" href="menu.html">View the Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" aria-hidden="true">
+      <button type="button" class="lightbox__close" aria-label="Close photo viewer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <button type="button" class="lightbox__prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <figure><img src="images/hero.jpg" alt=""><figcaption></figcaption></figure>
+      <button type="button" class="lightbox__next" aria-label="Next photo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="brand" href="index.html" aria-label="Olive &amp; Hearth, home">
+          <svg viewBox="0 0 48 48" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="24" r="22.5"/><path d="M13 36V25.5a11 11 0 0 1 22 0V36"/><path d="M9.5 36h29"/><path d="M24 33.5c-3.2-1.4-3.6-4.6-.6-8.6.4 2.2 1.8 2.8 2.8 4.2 1 1.6.4 3.6-2.2 4.4z" fill="#b38f58" stroke="none"/><path d="M24 11c-2.5-2.2-5.5-2.6-8-1.2 2.2 2 5.2 2.4 8 1.2zm0 0c2.5-2.2 5.5-2.6 8-1.2-2.2 2-5.2 2.4-8 1.2z" fill="currentColor" stroke="none"/></svg>
+          <span class="brand__text"><span class="brand__name">Olive &amp; Hearth</span><span class="brand__sub">Nixa &middot; Missouri</span></span>
+        </a>
+        <p>A wood-fired Italian kitchen serving handmade pasta, Neapolitan-style pizza and family-recipe desserts in Nixa, Missouri.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="menu.html#dolci">Desserts</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="reservations.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>1418 Hearthstone Way<br>Nixa, MO 65714</li>
+          <li><a href="tel:+14175550148">(417) 555-0148</a></li>
+          <li class="footer__muted">Fictional address &amp; phone number</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <ul class="footer__hours">
+          <li><span>Monday</span><span>Closed</span></li>
+          <li><span>Tue &ndash; Thu</span><span>4 &ndash; 9 PM</span></li>
+          <li><span>Fri &ndash; Sat</span><span>4 &ndash; 10 PM</span></li>
+          <li><span>Sunday</span><span>11 AM &ndash; 8 PM</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span data-year>2026</span> Olive &amp; Hearth. All rights reserved.</p>
+      <p class="footer__muted">A demonstration website for a fictional restaurant.</p>
+    </div>
+  </footer>
+</body>
+</html>
